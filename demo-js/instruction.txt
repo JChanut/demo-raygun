@@ -1,0 +1,7 @@
+ <script type="text/javascript" src="http://cdn.raygun.io/raygun4js/raygun.min.js"></script>
+
+// Init Raygun.io
+  console.log('Init Raygun error tracking');
+  Raygun.init('ROnEUbhee/kOSGm3XLoFLg==').attach();
+  
+  Raygun.send(exception);

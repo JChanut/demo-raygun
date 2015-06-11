@@ -28,14 +28,11 @@ angular.module('starter', ['ionic'])
 })
 
 .controller('HomeCtrl', function($scope) {
-  console.log('Home Controller');
   $scope.exception1 = function() {
-    console.log('Exception 1');
     throw new Error('Un exception lorsque je clique sur le bouton 1');
   }
   
   $scope.exception2 = function() {
-    console.log('Exception 2');
     throw new Error('Un exception lorsque je clique sur le bouton 2');
   }
 });
