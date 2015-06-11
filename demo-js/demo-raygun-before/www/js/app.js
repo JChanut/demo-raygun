@@ -25,12 +25,8 @@ angular.module('starter', ['ionic'])
 })
 
 .controller('HomeCtrl', function($scope) {
-  $scope.exception1 = function() {
-    throw new Error('Un exception lorsque je clique sur le bouton 1');
-  }
-  
-  $scope.exception2 = function() {
-    throw new Error('Un exception lorsque je clique sur le bouton 2');
+  $scope.throwException = function() {
+    throw new Error('Une exception lorsque je clique sur le bouton de mon application');
   }
 });
 

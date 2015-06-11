@@ -1,7 +1,13 @@
+ ## Put this in index.html
  <script type="text/javascript" src="http://cdn.raygun.io/raygun4js/raygun.min.js"></script>
 
+## Put this in app.js app.run
 // Init Raygun.io
   console.log('Init Raygun error tracking');
-  Raygun.init('ROnEUbhee/kOSGm3XLoFLg==').attach();
+  Raygun.init('Mgv+ISfRh4Ndlq5tPxfy5Q==').attach();
   
+## Put this in exceptionHandler
   Raygun.send(exception);
+  
+## Documentation
+https://raygun.io/docs/languages
